@@ -3,6 +3,10 @@ button.addEventListener("click", () => {
   const data = Math.random() * 100;
   const realData = Math.floor(data);
   const percent = realData;
+  if (yourNameValue == "" && partnerNameValue == "") {
+    return alert("fill the form first");
+  }
+
   if (percent >= 50) {
     display.innerHTML =
       "Congratulation!!!" +
