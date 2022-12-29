@@ -1,0 +1,63 @@
+* {
+  margin: 0rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42vh;
+  gap: 1rem;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(198, 211, 11, 0.3);
+  background: rgba(10, 9, 8, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(20, 2, 2, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(167, 123, 123, 0.3);
+}
+h3 {
+  text-align: center;
+  overflow: hidden;
+  font-style: oblique;
+  margin-top: 1rem;
+}
+button {
+  margin-top: -5rem;
+  font-size: 2rem;
+  padding: 1.3rem;
+  margin: 2rem;
+  margin-left: 4rem;
+  border-radius: 3rem;
+  background: url(img/bg.png) no-repeat center center;
+  background-size: cover;
+  color: rgb(243, 235, 235);
+  height: 15vh;
+}
+img {
+  height: 20vh;
+}
+.card {
+  height: 40vh;
+}
+/* .text {
+  margin-top: 2rem;
+} */
+input {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+h5 {
+  font-size: 1rem;
+}
