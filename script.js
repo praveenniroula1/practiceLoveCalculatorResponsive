@@ -59,5 +59,4 @@ const nameDisplay = () => {
     partnerNameValue = partnerName.value;
   });
 };
-console.log(nameDisplay());
 nameDisplay();
